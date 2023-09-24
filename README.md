@@ -1,4 +1,5 @@
 # CapitalFinanceATM
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 
 ## Table of Contents
@@ -46,8 +47,10 @@ Follow these steps to set up the project:
 
 To use the ATM project, follow these steps:
 
-1. Launch the project from NetBeans IDE.
+1. Launch the project from Account.java class.
 2. The application will start, and you will see the ATM login screen.
+3. Enter your Card No. and 4 digit Pin for Login
+4. After a successful Login user can see ATM interface.
 
 ## 6. Interacting with the Interface
 
