@@ -1,5 +1,4 @@
-# CapitalFinanceATM
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
 
 
 ## Table of Contents
@@ -39,7 +38,7 @@ Follow these steps to set up the project:
 
 1. Open NetBeans IDE.
 2. Create a new Java project and name it appropriately.
-3. Copy the provided Java classes (`ConnectionProvider.java`, `User.java`, `Account.java`) into your project's source folder.
+3. Copy the provided Java classes (`ConnectionProvider.java`, `User.java`, `Account.java`) into your project's source folder `CapitalFinanceATM->src->com->atm->all the classes`.
 4. Configure your MySQL database connection details in `ConnectionProvider.java` (URL, username, and password).
 5. Ensure you have the MySQL JDBC driver added to your project's dependencies.
 
