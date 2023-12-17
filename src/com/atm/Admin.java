@@ -43,7 +43,8 @@ public class Admin {
                         }
 
                     } else if (ch == 3) {
-                        System.exit(0);
+                        System.out.println("Log out Successfully...\n");
+                        return;
                     } else {
                         System.out.println("Invalid Option!...");
                     }
@@ -171,13 +172,11 @@ public class Admin {
 
     }
 
-
-
     public static BigInteger getBigInteger(ResultSet resultSet, int columnIndex) throws SQLException {
         BigDecimal value = resultSet.getBigDecimal(columnIndex);
         return value == null ? null : value.toBigInteger();
     }
-    
+
 //Return A formatted string representing the current date and time.
     public static String getCurrentDateTime() {
         // Get the current date and time

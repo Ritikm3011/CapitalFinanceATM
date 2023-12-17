@@ -16,7 +16,7 @@ import java.time.format.DateTimeFormatter;
 public class Account {
 
 //The main method of the application. It handles user interaction for ATM operations.
-    public static void main(String[] args) {
+    public static void UserOperations(String[] args) {
 
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -110,7 +110,8 @@ public class Account {
 
                     } else if (ch == 5) {
 //                    5.Exit
-                        System.exit(0);
+                        return;
+//                        System.exit(0);
 
                     } else {
                         System.out.println("Invalid Choice...");
@@ -410,7 +411,7 @@ public class Account {
             System.out.println("...............................................");
             System.out.println("\t....Capital Finance ATM....\n\t    Transaction Receipt");
             System.out.println("...............................................");
-            
+
             System.out.println("Transaction ID\t:\t" + t_id);
             System.out.println("Date & Time\t:\t" + date);
             System.out.println("Card Number\t:\t" + user.getId());
@@ -445,7 +446,6 @@ public class Account {
 
 //end
 }
-
 
 // Ritik Mondal
 // 25.September.2023
